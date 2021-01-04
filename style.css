@@ -1,14 +1,44 @@
-body {
-    background-color: burlywood;
+body{
+    background-color: #efeff7;
 }
 
 .header {
-    text-align: center;
-    font-size: 40px;
-    font-weight: ;
+    background-color: #CBA9FF;
+    padding: 20px;
+    color: #000;
 }
 
-.section h1{
-    text-align: center;
-    font-size: 30px;
+.section{
+    margin: 50px 30px;  
+    padding-top: 30px;  
+}
+
+.breadcrumb a{
+    text-decoration: none;
+    padding: 40px 10px;
+    position: sticky;
+}
+
+.breadcrumb li{
+    padding: 20px 10px;
+}
+.footer{
+    background-color: #CBA9FF;
+    padding: 22px;
+}
+
+.footer a {
+    margin: 150px 10px 0px 10px;
+    padding: 0px 30px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.button{
+    margin: 10px 30px;
+    color: #000;
+}
+a{
+    color: black;
 }
